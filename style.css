@@ -1,0 +1,33 @@
+header{
+    width: 100%;
+    overflow: hidden; /*Eliminamos errres del float*/
+    background: hsl(197, 92%, 39%);
+    margin-bottom: 20px;
+}
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+header nav{
+    float: right;
+    line-height: 200px;
+}
+header nav a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: bold;
+    -webkit-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+
+header nav a:hover{
+    background: #0b96f3;
+    border-radius: 50px;
+}
