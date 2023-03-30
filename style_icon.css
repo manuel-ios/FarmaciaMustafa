@@ -1,4 +1,6 @@
 header .logo{
-    line-height: 200px;
+    line-height: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
     float: left;
 }

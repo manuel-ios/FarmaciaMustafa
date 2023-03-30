@@ -1,19 +1,20 @@
 header{
     width: 100%;
+    height: 200px;
     overflow: hidden; /*Eliminamos errres del float*/
-    background: hsl(197, 92%, 39%);
+    background:rgb(2, 80, 140);
     margin-bottom: 20px;
 }
 .wrapper{
     width: 90%;
-    max-width: 1000px;
+    max-width: 100%;
     margin: auto;
     overflow: hidden;
 }
 
 header nav{
     float: right;
-    line-height: 200px;
+    line-height: 90px;
 }
 header nav a{
     display: inline-block;
@@ -29,5 +30,14 @@ header nav a{
 
 header nav a:hover{
     background: #0b96f3;
-    border-radius: 50px;
+    border-radius: 10px;
+}
+.hec{
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+}
+ .hect a{
+    color: #fff;
 }
